@@ -1,0 +1,17 @@
+body {
+  margin: 30px;
+  padding: 10px;
+  background: rgb(255, 231, 231);
+}
+
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  top: 0; 
+  width: 80px;
+  height: 100%;
+  background: #986aa5;
+  z-index: -1;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
